@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_tutorial/add_new_task.dart';
-import 'package:firebase_tutorial/utils.dart';
-import 'package:firebase_tutorial/widgets/task_card.dart';
+import 'package:CRUD/add_new_task.dart';
+import 'package:CRUD/utils.dart';
+import 'package:CRUD/widgets/task_card.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:intl/intl.dart';

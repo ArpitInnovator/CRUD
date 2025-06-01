@@ -1,26 +1,23 @@
-name: firebase_tutorial
+name: CRUD
 description: "A new Flutter project."
 
 publish_to: "none"
-
 
 version: 1.0.0+1
 
 environment:
   sdk: ^3.7.2
 
-
 dependencies:
   cloud_firestore: ^5.6.8
   cupertino_icons: ^1.0.8
-  
   firebase_auth: ^5.5.4
   firebase_core: ^3.13.1
-  
   flex_color_picker: ^3.7.1
   flutter:
     sdk: flutter
-  
+   
+  flutter_launcher_icons: ^0.14.3
   intl: ^0.20.2
   uuid: ^4.5.1
 
@@ -28,9 +25,13 @@ dev_dependencies:
   flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
-
-
+  
 flutter:
-
   uses-material-design: true
- 
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon1.png"
+  min_sdk_android: 24
+  remove_alpha_ios: true
